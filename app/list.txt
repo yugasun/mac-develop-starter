@@ -1,0 +1,6 @@
+google-chrome
+sogouinput
+visual-studio-code
+iterm2
+spectacle
+wechat

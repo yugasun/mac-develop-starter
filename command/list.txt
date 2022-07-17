@@ -1,0 +1,11 @@
+git
+gh
+autojump
+docker
+docker-compose
+fnm
+pnpm
+yarn
+pyenv
+goenv
+java
