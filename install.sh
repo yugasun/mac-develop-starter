@@ -12,7 +12,7 @@ NODE_VERSION=v16.16.0
 sudo scutil --set HostName $HOST_NAME
 
 # install homebrew
-/bin/sh -c $WORK_DIR/homebrew.sh
+sh -c $WORK_DIR/tools/homebrew.sh
 
 # install commands by homebrew
 cat $COMMAND_LIST | xargs brew install
@@ -21,7 +21,10 @@ cat $COMMAND_LIST | xargs brew install
 cat $APP_LIST | xargs brew install --cask
 
 # Initialize git environment
-/bin/sh -c $WORK_DIR/git.init.sh
+sh -c $WORK_DIR/tools/git.init.sh
+
+# install oh-my-zsh
+sh -c $WORK_DIR/tools/oh-my-zsh.install.sh
 
 # install zsh proxy
 ZSH_PROXY_PLUGIN_DIR=~/.oh-my-zsh/custom/plugins/zsh-proxy
@@ -36,7 +39,15 @@ node -v
 
 # init .zshrc
 copy $WORK_DIR/.zshrc ~/.zshrc
-source ~/.zshrc
+
+# install goenv
+sh -c $WORK_DIR/tools/goenv.init.sh
 
 # install nrm
 pnpm install nrm -g
+
+# install rust version manager
+curl -sSf https://sh.rustup.rs | sh
+
+# Source zsh config
+source ~/.zshrc

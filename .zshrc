@@ -127,4 +127,5 @@ export PATH="$GOROOT/bin:$PATH"
 export PATH="$PATH:$GOPATH/bin"
 
 # java
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk/Contents/Home"

@@ -13,14 +13,17 @@ It will auto install below commands by `Homebrew`:
 - [x] git
 - [x] gh
 - [x] autojump
-- [x] docker
 - [x] docker-compose
 - [x] fnm
 - [x] pnpm
 - [x] yarn
 - [x] pyenv
-- [x] goenv
-- [x] java
+- [x] [goenv](https://github.com/syndbg/goenv): Install by git clone instead of brew.
+- [x] openjdk
+- [x] maven
+- [x] gradle
+- [x] rustup-init
+- [x] helm
 
 > Notice: please install by requirements, just remove no need commands in `command/list.txt`
 
@@ -32,6 +35,7 @@ It will auto install below applications by `Homebrew`:
 - [x] google-chrome
 - [x] visual-studio-code
 - [x] iterm2
+- [x] docker
 - [x] spectacle
 - [x] wechat
 - [x] sogouinput

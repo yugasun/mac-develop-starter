@@ -6,5 +6,8 @@ fnm
 pnpm
 yarn
 pyenv
-goenv
-java
+openjdk
+maven
+gradle
+helm
+rustup-init
