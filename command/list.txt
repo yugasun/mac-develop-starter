@@ -1,7 +1,6 @@
 git
 gh
 autojump
-docker
 docker-compose
 fnm
 pnpm
