@@ -32,12 +32,13 @@ It will auto install below commands by `Homebrew`:
 
 It will auto install below applications by `Homebrew`:
 
+- [x] docker
 - [x] google-chrome
 - [x] visual-studio-code
 - [x] iterm2
-- [x] docker
 - [x] spectacle
 - [x] wechat
+- [x] youdaodict
 - [x] sogouinput
 
 > Notice: please install by requirements, just remove no need commands in `app/list.txt`

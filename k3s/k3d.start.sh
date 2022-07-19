@@ -2,11 +2,15 @@
 
 set -e
 
+# 0. Install k3d cli
+sh -c ./k3d.install.sh
+
 # 1. Create k3d cluster name: devcluster
 k3d cluster create devcluster \
   --api-port 127.0.0.1:6443 \
   -p 80:80@loadbalancer \
-  -p 443:443@loadbalancer
+  -p 443:443@loadbalancer \
+  --k3s-arg "--disable=traefik@server:0"
 
 
 # 2. Get config

@@ -5,3 +5,4 @@ visual-studio-code
 iterm2
 spectacle
 wechat
+youdaodict
