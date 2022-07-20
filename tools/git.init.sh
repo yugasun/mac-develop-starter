@@ -4,19 +4,20 @@ set -e
 
 # Before init git, please create personal access token on https://github.com/settings/tokens
 # The minimum required scopes are 'repo', 'read:org', 'admin:public_key'.
-GIT_TOKEN=$(cat ./github.token)
+WORK_DIR="$(pwd)"
+# Load git config variable: GIT_TOKEN, GIT_USER, GIT_EMAIL
+source $WORK_DIR/git.config
+
 SSH_CONFIG_PATH=$HOME/.ssh
 SSH_KEY_FILE=$SSH_CONFIG_PATH/id_ed25519
 SSH_CONFIG_FILE=$SSH_CONFIG_PATH/config
-GIT_NAME=yugasun
-GIT_EMAIL=yuga_sun@163.com
 
-git config --global user.name "$GIT_NAME"
+git config --global user.name "$GIT_USER"
 git config --global user.email "$GIT_EMAIL"
 git config --global init.defaultBranch main
+git config --global core.excludesFile '~/.gitignore.global'
 
 ssh-keygen -t ed25519 -C "$GIT_EMAIL"
-
 
 # Start the ssh-agent in the background.
 eval "$(ssh-agent -s)"
@@ -35,3 +36,6 @@ ssh-add -K $SSH_KEY_FILE
 
 # init gh command
 gh auth login --with-token $GIT_TOKEN
+
+# copy global git ignore file
+cp $WORK_DIR/.gitignore.global ~/.gitignore.global

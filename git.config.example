@@ -1,0 +1,6 @@
+# git personal access token
+GIT_TOKEN=xxx
+# git user name
+GIT_USER=yugasun
+# git user email
+GIT_EMAIL=yuga_sun@163.com
