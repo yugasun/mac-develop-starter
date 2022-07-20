@@ -38,7 +38,7 @@ fnm use default
 node -v
 
 # init .zshrc
-copy $WORK_DIR/.zshrc ~/.zshrc
+cp $WORK_DIR/.zshrc ~/.zshrc
 
 # install goenv
 sh -c $WORK_DIR/tools/goenv.init.sh
