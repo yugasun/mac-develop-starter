@@ -2,7 +2,7 @@
 
 简体中文 | [English](./README.en-US.md)
 
-全新 MacOS 配置指南
+全新 macOS 配置指南
 
 ## 克隆项目
 
