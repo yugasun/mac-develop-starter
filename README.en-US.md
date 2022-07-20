@@ -2,7 +2,15 @@
 
 [简体中文](./README.md) | English
 
-Automatically config environment for mac developer.
+Automatically config environment for a new macOS.
+
+## Download project
+
+```shell
+curl -o mac-develop-starter.tar.gz https://codeload.github.com/yugasun/mac-develop-starter/tar.gz/refs/tags/v0.0.1
+tar -xjvf mac-develop-starter.tar.gz --strip-components 1 -C ./mac-develop-starter
+cd ./mac-develop-starter
+```
 
 ## Prepare
 

@@ -2,12 +2,14 @@
 
 简体中文 | [English](./README.en-US.md)
 
-全新 macOS 配置指南
+全新 macOS 自动化配置工具
 
-## 克隆项目
+## 下载项目
 
 ```shell
-git clone https://github.com/yugasun/mac-develop-starter
+curl -o mac-develop-starter.tar.gz https://codeload.github.com/yugasun/mac-develop-starter/tar.gz/refs/tags/v0.0.1
+tar -xjvf mac-develop-starter.tar.gz --strip-components 1 -C ./mac-develop-starter
+cd ./mac-develop-starter
 ```
 
 ## 准备
