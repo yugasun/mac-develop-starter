@@ -24,6 +24,12 @@ GIT_USER=yugasun
 GIT_EMAIL=yuga_sun@163.com
 ```
 
+## 执行安装
+
+```shell
+./install.sh
+```
+
 ## 安装命令列表
 
 本项目将通过通过 Homebrew 安装以下命令：

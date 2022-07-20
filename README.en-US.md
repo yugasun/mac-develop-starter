@@ -18,6 +18,11 @@ GIT_USER=yugasun
 GIT_EMAIL=yuga_sun@163.com
 ```
 
+## Start installation
+
+```shell
+./install.sh
+```
 ## Commands List
 
 It will auto install below commands by `Homebrew`:
