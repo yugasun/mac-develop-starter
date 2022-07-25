@@ -35,7 +35,7 @@ git clone https://github.com/yugasun/zsh-proxy.git $ZSH_PROXY_PLUGIN_DIR
 fnm install $NODE_VERSION
 fnm alias $NODE_VERSION default
 fnm use default
-node -v
+node --version
 
 # init .zshrc
 cp $WORK_DIR/.zshrc ~/.zshrc
@@ -48,6 +48,11 @@ pnpm install nrm -g
 
 # install rust version manager
 curl -sSf https://sh.rustup.rs | sh
+
+# install deno version manager
+curl -fsSL https://deno.land/x/dvm/install.sh | sh
+dvm install
+deno --version
 
 # Source zsh config
 source ~/.zshrc
