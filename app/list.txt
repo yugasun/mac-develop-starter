@@ -1,10 +1,11 @@
-temurin8
-homebrew/cask-versions/adoptopenjdk8
 docker
 google-chrome
 sogouinput
 visual-studio-code
 iterm2
+flutter
+temurin8
+homebrew/cask-versions/adoptopenjdk8
 spectacle
 wechat
 youdaodict

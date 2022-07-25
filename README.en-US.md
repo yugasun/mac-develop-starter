@@ -60,6 +60,7 @@ It will auto install below applications by `Homebrew`:
 - [x] [docker](https://www.docker.com/): Docker is an open platform for developing, shipping, and running applications
 - [x] [google-chrome](https://www.google.com/chrome/): The browser built by Google
 - [x] [visual-studio-code](https://code.visualstudio.com/): a lightweight but powerful source code editor which runs on your desktop
+- [x] [flutter](https://flutter.dev/): Flutter transforms the app development process. Build, test, and deploy beautiful mobile, web, desktop, and embedded apps from a single codebase
 - [x] [temurin8](https://projects.eclipse.org/projects/adoptium.temurin): The Eclipse Temurin™ project provides code and processes that support the building of runtime binaries and associated technologies that are high performance, enterprise-caliber, cross-platform, open-source licensed, and Java SE TCK-tested for general use across the Java ecosystem 🔥
 - [x] [iterm2](https://iterm2.com/): iTerm2 is a replacement for Terminal and the successor to iTerm 🔥
 - [x] [spectacle](https://www.spectacleapp.com/): Move and resize windows with ease 🔥
