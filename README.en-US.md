@@ -45,7 +45,6 @@ It will auto install below commands by `Homebrew`:
 - [x] [pnpm](https://pnpm.io/): Fast, disk space efficient package manager
 - [x] [pyenv](https://github.com/pyenv/pyenv): Simple Python version management
 - [x] [goenv](https://github.com/syndbg/goenv): Golang version management, like pyenv and rbenv, but for Go
-- [x] [openjdk](https://github.com/openjdk/jdk): JDK main-line development
 - [x] [maven](https://maven.apache.org/): Apache Maven is a software project management and comprehension tool
 - [x] [gradle](https://gradle.org/): Gradle is a build tool with a focus on build automation and support for multi-language development
 - [x] [rustup-init](https://www.rust-lang.org/tools/install): Rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated
@@ -61,9 +60,10 @@ It will auto install below applications by `Homebrew`:
 - [x] [docker](https://www.docker.com/): Docker is an open platform for developing, shipping, and running applications
 - [x] [google-chrome](https://www.google.com/chrome/): The browser built by Google
 - [x] [visual-studio-code](https://code.visualstudio.com/): a lightweight but powerful source code editor which runs on your desktop
-- [x] [iterm2](https://iterm2.com/): iTerm2 is a replacement for Terminal and the successor to iTerm
-- [x] [spectacle](https://www.spectacleapp.com/): Move and resize windows with ease
-- [x] [wechat](https://www.wechat.com/): Connecting a billion people with calls, chats and more\
+- [x] [temurin8](https://projects.eclipse.org/projects/adoptium.temurin): The Eclipse Temurin™ project provides code and processes that support the building of runtime binaries and associated technologies that are high performance, enterprise-caliber, cross-platform, open-source licensed, and Java SE TCK-tested for general use across the Java ecosystem 🔥
+- [x] [iterm2](https://iterm2.com/): iTerm2 is a replacement for Terminal and the successor to iTerm 🔥
+- [x] [spectacle](https://www.spectacleapp.com/): Move and resize windows with ease 🔥
+- [x] [wechat](https://www.wechat.com/): Connecting a billion people with calls, chats and more 🔥
 - [x] [sogouinput](https://shurufa.sogou.com/): A powerful input tool
 - [x] [tencent-lemon](https://lemon.qq.com/): Mac manage tool
 - [x] [youdaodict](https://cidian.youdao.com/): Youdao Dict

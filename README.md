@@ -46,7 +46,6 @@ GIT_EMAIL=yuga_sun@163.com
 - [x] [pnpm](https://pnpm.io/): 快速的，节省磁盘空间的包管理工具
 - [x] [pyenv](https://github.com/pyenv/pyenv): Python 版本管理工具
 - [x] [goenv](https://github.com/syndbg/goenv): Golang 版本管理工具
-- [x] [openjdk](https://github.com/openjdk/jdk): 开源 JDK
 - [x] [maven](https://maven.apache.org/): Maven 是一个项目管理工具，可以对 Java 项目进行构建、依赖管理
 - [x] [gradle](https://gradle.org/): Gradle是一个基于Apache Ant和Apache Maven概念的项目自动化建构工具。Gradle 构建脚本使用的是Groovy 或Kotlin 的特定领域语言来编写的，而不是传统的XML
 - [x] [rustup-init](https://www.rust-lang.org/tools/install): Rust 版本管理工具
@@ -62,6 +61,7 @@ GIT_EMAIL=yuga_sun@163.com
 - [x] [docker](https://www.docker.com/): Docker 是一个开源的应用容器引擎
 - [x] [google-chrome](https://www.google.com/chrome/): 谷歌浏览器
 - [x] [visual-studio-code](https://code.visualstudio.com/): 微软开发的轻量级的编程 IDE
+- [x] [temurin8](https://projects.eclipse.org/projects/adoptium.temurin): Eclipse Temurin 是开源许可的运行时二进制文件，与其AdoptOpenJDK 前身不同，是经过Java SE TCK 测试并兼容在整个Java 生态系统中通用 🔥
 - [x] [iterm2](https://iterm2.com/): 非常强大的命令行工具 🔥
 - [x] [spectacle](https://www.spectacleapp.com/): 可以通过快捷键快速移动和放大/缩小窗口的工具 🔥
 - [x] [wechat](https://www.wechat.com/): 微信 🔥

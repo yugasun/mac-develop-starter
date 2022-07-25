@@ -6,7 +6,6 @@ fnm
 pnpm
 yarn
 pyenv
-openjdk
 maven
 gradle
 helm

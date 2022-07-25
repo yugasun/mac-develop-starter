@@ -1,3 +1,5 @@
+temurin8
+homebrew/cask-versions/adoptopenjdk8
 docker
 google-chrome
 sogouinput
