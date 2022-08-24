@@ -10,3 +10,4 @@ spectacle
 wechat
 youdaodict
 tencent-lemon
+imageoptim

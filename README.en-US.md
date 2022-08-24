@@ -68,6 +68,7 @@ It will auto install below applications by `Homebrew`:
 - [x] [sogouinput](https://shurufa.sogou.com/): A powerful input tool
 - [x] [tencent-lemon](https://lemon.qq.com/): Mac manage tool
 - [x] [youdaodict](https://cidian.youdao.com/): Youdao Dict
+- [x] [imageoptim](https://imageoptim.com/): ImageOptim makes images load faster. Removes bloated metadata. Saves disk space & bandwidth by compressing images without losing quality
 
 > Notice: please install by requirements, just remove no need commands in `app/list.txt`
 

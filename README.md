@@ -70,6 +70,7 @@ GIT_EMAIL=yuga_sun@163.com
 - [x] [sogouinput](https://shurufa.sogou.com/): 搜狗输入法
 - [x] [tencent-lemon](https://lemon.qq.com/): Mac 电脑清理工具，可以实时了解Mac系统状况
 - [x] [youdaodict](https://cidian.youdao.com/): 有道词典
+- [x] [imageoptim](https://imageoptim.com/): 一款非常好用的图片压缩工具
 
 > 提示: 可以根据个人需要修改 `app/list.txt` 列表，执行安装前将不需要命令从文件中删除就好。
 
