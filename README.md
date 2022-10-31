@@ -61,10 +61,9 @@ GIT_EMAIL=yuga_sun@163.com
 - [x] [docker](https://www.docker.com/): Docker 是一个开源的应用容器引擎
 - [x] [google-chrome](https://www.google.com/chrome/): 谷歌浏览器
 - [x] [visual-studio-code](https://code.visualstudio.com/): 微软开发的轻量级的编程 IDE
-- [x] [flutter](https://flutter.dev/): Flutter是谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面
+- [x] [flutter](https://flutter.dev/): Flutter是谷歌的高性能、跨端UI框架，可以通过一套代码，支持iOS、Android、Windows/MAC/Linux等多个平台，且能达到原生性能。
 - [x] [temurin8](https://projects.eclipse.org/projects/adoptium.temurin): Eclipse Temurin 是开源许可的运行时二进制文件，与其AdoptOpenJDK 前身不同，是经过Java SE TCK 测试并兼容在整个Java 生态系统中通用 🔥
 - [x] [iterm2](https://iterm2.com/): 非常强大的命令行工具 🔥
-- [x] [flutter](https://flutter.dev/): 非常强大的命令行工具 🔥
 - [x] [spectacle](https://www.spectacleapp.com/): 可以通过快捷键快速移动和放大/缩小窗口的工具 🔥
 - [x] [wechat](https://www.wechat.com/): 微信 🔥
 - [x] [sogouinput](https://shurufa.sogou.com/): 搜狗输入法
