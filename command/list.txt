@@ -10,4 +10,5 @@ maven
 gradle
 jenv
 helm
+colima
 rustup-init

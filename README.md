@@ -51,6 +51,7 @@ GIT_EMAIL=yuga_sun@163.com
 - [x] [gradle](https://gradle.org/): Gradle是一个基于Apache Ant和Apache Maven概念的项目自动化建构工具。Gradle 构建脚本使用的是Groovy 或Kotlin 的特定领域语言来编写的，而不是传统的XML
 - [x] [rustup-init](https://www.rust-lang.org/tools/install): Rust 版本管理工具
 - [x] [helm](https://helm.sh/): Helm 是 Kubernetes 的包管理器
+- [x] [colima](https://github.com/abiosoft/colima): 轻松管理容器和 K8s（支持 M1 芯片）(Docker Desktop for Mac 的免费替代品)🔥
 
 > 提示: 可以根据个人需要修改 `command/list.txt` 列表，执行安装前将不需要命令从文件中删除就好。
 

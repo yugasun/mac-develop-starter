@@ -50,6 +50,7 @@ It will auto install below commands by `Homebrew`:
 - [x] [gradle](https://gradle.org/): Gradle is a build tool with a focus on build automation and support for multi-language development
 - [x] [rustup-init](https://www.rust-lang.org/tools/install): Rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated
 - [x] [helm](https://helm.sh/): Helm is the best way to find, share, and use software built for Kubernetes.
+- [x] [colima](https://github.com/abiosoft/colima): Container runtimes on macOS (and Linux) with minimal setup🔥
 
 > Notice: please install by requirements, just remove no need commands in `command/list.txt`
 
