@@ -8,5 +8,6 @@ yarn
 pyenv
 maven
 gradle
+jenv
 helm
 rustup-init

@@ -45,6 +45,7 @@ It will auto install below commands by `Homebrew`:
 - [x] [pnpm](https://pnpm.io/): Fast, disk space efficient package manager
 - [x] [pyenv](https://github.com/pyenv/pyenv): Simple Python version management
 - [x] [goenv](https://github.com/syndbg/goenv): Golang version management, like pyenv and rbenv, but for Go
+- [x] [jenv](https://github.com/jenv/jenv): Java version management
 - [x] [maven](https://maven.apache.org/): Apache Maven is a software project management and comprehension tool
 - [x] [gradle](https://gradle.org/): Gradle is a build tool with a focus on build automation and support for multi-language development
 - [x] [rustup-init](https://www.rust-lang.org/tools/install): Rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated

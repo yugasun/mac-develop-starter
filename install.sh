@@ -20,6 +20,12 @@ cat $COMMAND_LIST | xargs brew install
 # install apps by homebrew
 cat $APP_LIST | xargs brew install --cask
 
+# Reload shell env
+exec $SHELL -l
+
+# Enable jenv export plugin, to ensure JAVA_HOME env
+jenv enable-plugin export
+
 # Initialize git environment
 sh -c $WORK_DIR/tools/git.init.sh
 
