@@ -70,7 +70,7 @@ ZSH_THEME="ys"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump zsh-proxy)
+plugins=(git autojump zsh-proxy docker docker-compose mvn macos emoji pip npm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -101,7 +101,28 @@ alias zshconfig="vim ~/.zshrc"
 alias zshupdate="source ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
 alias ssconfig="code ~/.ShadowsocksX-NG"
+alias sshconfig="vim ~/.ssh/config"
+alias mvnconfig="code ~/.m2"
+alias cdd="cd ~/Desktop"
+alias pamconfig="sudo vim /etc/pam.d/sudo"
 alias mvninit="mvn archetype:generate -DgroupId=com.futurefab.ai -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false"
+alias pv="proxyview"
+alias np="noproxy"
+alias px="proxy"
+alias colimastart="colima start --arch x86_64 --cpu 2 --memory 4 --mount-type 9p"
+alias npmpwd="htpasswd -nb -B -C 10"
+alias cdhf="cd ~/.cache/huggingface"
+alias venv="python -m venv ./venv"
+# docker
+alias dc="docker"
+alias dcc="docker container"
+alias dci="docker image"
+alias dcrun="docker run"
+alias dcex="docker exec"
+alias dcps="docker-compose"
+alias dcpsup="docker-compose up"
+alias dcpsstop="docker-compose stop"
+alias dcpslog="docker-compose logs"
 
 # fnm
 eval "$(fnm env --use-on-cd)"
@@ -115,17 +136,22 @@ export PNPM_HOME="/Users/yugasun/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
+# pyenv
 export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+export PATH="$PYENV_ROOT/bin:$PATH"
+export PYTHON_BUILD_CACHE_PATH="$PYENV_ROOT/cache"
 eval "$(pyenv init -)"
+# pyenv end
 
 # goenv
 export GOENV_ROOT="$HOME/.goenv"
 export PATH="$GOENV_ROOT/bin:$PATH"
 eval "$(goenv init -)"
 export PATH="$GOROOT/bin:$PATH"
-export PATH="$PATH:$GOPATH/bin"
+# export PATH="$PATH:$GOPATH/bin"
+export GO111MODULE=on
+# goenv end
 
-# java
-export PATH="/opt/homebrew/opt/openjdk/bin:$PATH
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk/Contents/Home"
+# jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
